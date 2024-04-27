@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Get All Tabs Extension",
+  "version": "1.0",
+  "description": "A Chrome extension to get all open tabs.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon_16.png"
+  },
+  "icons": {
+    "16": "icon_16.png"
+  }
+}
